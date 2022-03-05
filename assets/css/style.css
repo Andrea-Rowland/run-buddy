@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* more on this crazy alphanumerial value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+/* Applies 20px to the top and bottom, then 35 px to the left and right */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* Sets font weight size color and margins */
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* Set a as not having text decoration */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* Sets navigation options to the right */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* Sets navigation list inline instead of taking up width of page for each */
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
