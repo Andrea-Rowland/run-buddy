@@ -10,7 +10,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     }
 
-/* Applies 20px to the top and bottom, then 35 px to the left and right */
+/* Applies styles to <headers> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -128,5 +128,5 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Styles End */
+
 
