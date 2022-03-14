@@ -14,6 +14,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Sets font weight size color and margins */
@@ -22,7 +25,6 @@ header h1{
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 /* Set a as not having text decoration */
@@ -33,8 +35,7 @@ header a {
 
 /* Sets navigation options to the right */
 header nav {
-    float: right;
-    margin: 7px 0;
+   margin: 7px 0;
 }
 
 /* Sets navigation list inline instead of taking up width of page for each */
