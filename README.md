@@ -12,3 +12,5 @@ https://
 
 ## Contribution
 Made with :heart: by Andrea Rowland
+
+### &copy;2019 Run Buddy, Inc
